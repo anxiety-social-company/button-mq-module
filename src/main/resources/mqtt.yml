@@ -1,0 +1,7 @@
+mqtt:
+  broker:
+    url: tcp://test.mosquitto.org:1883
+  client:
+    id: esp32_client_springboot
+  topic:
+    led: esp32/led
